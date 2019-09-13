@@ -1,0 +1,60 @@
+body {
+  padding-top: 50px;
+}
+
+
+.first_cnt {
+  display: flex;
+  
+
+}
+.img_sx , .img_dx {
+  width: 50%;
+  float: right;
+
+}
+
+.text {
+  width: 40%;
+  float: right;
+}
+
+table, td, th {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: grey;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+
+#myfooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.card-footer:hover {
+    background-color: mediumseagreen;
+}
